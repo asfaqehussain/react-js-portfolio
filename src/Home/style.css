@@ -1,0 +1,132 @@
+header {
+    background-color:  rgb(224, 91, 91);
+}
+.navBar {
+ display: flex;
+ justify-content: space-between;
+ margin: 20px;
+ padding: 10px;
+ align-items: center;
+}
+
+.navBar > ul {
+ display: flex;
+ list-style-type: none;
+ gap: 20px;
+}
+.navBar > input { 
+    border-radius: 10px;
+    height: 25px;
+    width: 120px;
+    padding: 10px;
+}
+.mainComponent {
+    background-color: aliceblue;
+    display: flex;
+}
+
+body {
+    margin: 0px;
+  }
+  .nav-container {
+    background: #cd7924;
+    position: fixed;
+    width: 100%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+  }
+  .headerMain  {
+  color: white;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+  }
+  .tab > li:hover {
+    color: rgb(95, 30, 0);
+  }
+  .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    /* position: absolute; */
+    background-image: url("./background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .list-items{
+    font-size: 18px;
+    color: white;
+  }
+  .profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: grey;
+  }
+  .nav-search {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: none;
+  }
+  .Portfolio-image {
+    border-radius: 100%;
+  }
+  .image {
+    display: flex;
+    /* width: 100%; */
+    margin: 20px 0px 10px 0px;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+  }
+  .background-image {
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+  }
+  .name{
+    display: flex;
+    justify-content: center;
+  }
+  .name > h1 {
+  
+    color: black;
+    /* position: absolute; */
+  }
+  .self-detail {
+    display: flex;
+    /* flex-direction: column; */
+    /* position: absolute; */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 164, 226);
+  }
+  .media-container>h2 {
+    color:black;
+  }
+  .media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
