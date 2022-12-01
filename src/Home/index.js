@@ -28,7 +28,7 @@ const Home = () => {
                 <div class="self-detail">
                     <div>
                         <div class="name">
-                            <h1>Tannu shakya</h1>
+                            <h1>Dev Name</h1>
                         </div>
                         <div class="media-container">
                             <h2>Developer</h2>
